@@ -35,7 +35,7 @@ for(let i=1;i<=20;i++){
 for(let i=1;i<=20;i++){
     function show(){
        
-        
+          a[i].style.backgroundColor="aqua";
       
       
      if (result.innerHTML !=="0") {
