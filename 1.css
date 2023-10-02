@@ -1,0 +1,18 @@
+
+@keyframes shine2 {
+    0% {
+        color: white; /* Start with white color */
+        text-shadow: none; /* No shadow */
+    }
+    50% {
+        color: black; /* Transition to black color */
+        text-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* Glowing shadow */
+    }
+    100% {
+        color: white; /* Back to white color */
+        text-shadow: none; /* No shadow */
+    }
+}
+.topg{
+    animation: shine2 5s infinite;
+}
