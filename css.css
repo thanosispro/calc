@@ -1,0 +1,20 @@
+.top{
+ 
+  background-image: url("2.jpg");
+ background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+
+}
+
+.blur{
+    
+    margin-top: 200pt;
+    height: 200pt;
+    width: 200pt;
+    justify-content: center;
+    backdrop-filter: blur(20px);
+}
